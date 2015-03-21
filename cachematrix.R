@@ -7,7 +7,7 @@
 ## matrices 
 
 ## Write a short comment describing this function
-## Create a cached matrix from a matrix that caches its inverse. 
+## Creates a cached matrix from a matrix that caches its inverse. 
 ## The matrix is assumed to be invertible. Inverse is created lazily
 ## when called the first time (lazy evaluation in R)
 
