@@ -29,7 +29,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Write a short comment describing this function
 ## Returns the inverse of a matrix. The matrix must be invertible.
-## Uses pre-made value if exits, computes it if it does not.
+## Uses the cached value if it exits, computes and caches it if it does not.
 
 cacheSolve <- function(x) {
         ## Return a matrix that is the inverse of 'x'
